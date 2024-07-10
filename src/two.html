@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ 
+ 
+    <h1 >TODO List</h1>
+    <h1 class="heading2">My TODO List</h1>
+ 
+ 
+ 
+    <div>
+        <h1>this is first inside div</h1>
+        <h1 class="heading3">This is 1 inside div</h1>
+        <h1 class="heading4">This is 2 inside div</h1>
+        <h1 class="heading5">This is 3 inside div</h1>
+    </div>
+    <input type="text"></input><button>Add</button>
+    <ul>
+        <li>Task 1</li>
+        <li>Task 2</li>
+        <li>Task 3</li>
+    </ul>
+    <script>
+        document.querySelector('h1').style.color='red';
+        document.querySelector('h1.heading2').style.color='pink';
+        const my_div = document.querySelector('div');
+        my_div.querySelector('h1').style.color = "blue";
+        my_div.querySelector('h1.heading3').style.color = "blue";
+        my_div.querySelector('h1.heading4').style.color = "green";
+        my_div.querySelector('h1.heading5').style.color = "yellow";
+
+        // const my_div = document.querySelector('div')
+        // my_div.querySelectorAll('h1')[1].style.color = 'red'
+        // // document.querySelectorAll('h1')
+ 
+    </script>
+</body>
+</html>
